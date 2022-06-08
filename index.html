@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+
+
+    <div class="single-item">
+        <div><img src="https://http2.mlstatic.com/D_NQ_NP_710268-MPE48768312537_012022-O.jpg" height="300" alt=""></div>
+        <div><img src="http://pa1.narvii.com/6958/eacc904c00a3b31d19367d9de394a1454c38a0bbr1-600-600_00.gif" height="300"></div>
+        <div><img src="http://cdn.shopify.com/s/files/1/0034/8733/4470/products/A045557866815_0.jpg?v=1629414673" height="300"></div>
+        <div><img src=" https://cdn.shopify.com/s/files/1/0034/8733/4470/products/A045557866815_1.jpg?v=1629414674" height="300"></div>
+        <div><img src="https://depor.com/resizer/-ScrL7aOLbNnmeA7iu7Bf28LKh0=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DQLBDFFASZFDXKYNSIS7TH6P6E.jpg" height="300"></div>
+        <div><img src="https://m1.paperblog.com/i/426/4261507/mira-animadas-imagenes-oliver-atom-nino-dibuj-L-EOluyi.jpeg" height="300"></div>
+      </div>
+
+    
+
+
+      <div class="multiple-item">
+        <div><img src="https://http2.mlstatic.com/D_NQ_NP_710268-MPE48768312537_012022-O.jpg" height="300" alt=""></div>
+        <div><img src="http://pa1.narvii.com/6958/eacc904c00a3b31d19367d9de394a1454c38a0bbr1-600-600_00.gif" height="300"></div>
+        <div><img src="http://cdn.shopify.com/s/files/1/0034/8733/4470/products/A045557866815_0.jpg?v=1629414673" height="300"></div>
+        <div><img src=" https://cdn.shopify.com/s/files/1/0034/8733/4470/products/A045557866815_1.jpg?v=1629414674" height="300"></div>
+        <div><img src="https://depor.com/resizer/-ScrL7aOLbNnmeA7iu7Bf28LKh0=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DQLBDFFASZFDXKYNSIS7TH6P6E.jpg" height="300"></div>
+        <div><img src="https://m1.paperblog.com/i/426/4261507/mira-animadas-imagenes-oliver-atom-nino-dibuj-L-EOluyi.jpeg" height="300"></div>
+      </div>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.single-item').slick({
+            autoplay:true,
+            autoplaySpped:1000,
+            fade:true,
+            speed: 5000
+        });
+
+        $('.multiple-item').slick({
+            infinite:false,
+            slidesToShow:5,
+            slidesToScroll:1
+            
+        });
+    </script>
+</body>
+</html>
